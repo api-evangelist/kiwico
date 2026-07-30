@@ -1,0 +1,31 @@
+# KiwiCo
+
+> KiwiCo, Inc. is a direct-to-consumer education company in Mountain View, California that designs and ships hands-on STEAM (science, technology, engineering, art, math) project kits — called crates — on a monthly subscription for children from infancy through teens and adults. KiwiCo does not operate a public developer program: there is no developer portal, no published API, and no /.well-known/ discovery surface. This profile is catalog identity only.
+
+## About
+
+- [KiwiCo](https://www.kiwico.com/): Company website and store for STEAM subscription crates and single kits.
+- [KiwiCo Blog](https://www.kiwico.com/blog): Articles and hands-on project ideas for parents and educators.
+- [KiwiCo Help Center](https://support.kiwico.com/): Customer support, subscription management, shipping and billing help.
+
+## Store and Plans
+
+- [All STEAM Kits](https://www.kiwico.com/us/store/cp/all): Full catalog of crate lines and single kits with subscription and one-time pricing.
+- [Login](https://www.kiwico.com/login): Account sign-in and subscription management.
+
+## Legal
+
+- [Terms & Conditions](https://www.kiwico.com/terms)
+- [Privacy Policy](https://www.kiwico.com/privacy)
+
+## API surface
+
+KiwiCo publishes no public API, OpenAPI definition, SDK, CLI, MCP server, or webhook
+surface as of this profile's generation date. The host api.kiwico.com resolves to the
+consumer storefront and lesson-guide content, not to a programmable API. Any future
+developer surface should be captured by re-running the enrichment pipeline.
+
+---
+generated: 2026-07-19
+method: generated
+source: apis.yml + verified live pages on kiwico.com (no /llms.txt published; HTTP 404)

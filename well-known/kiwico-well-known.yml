@@ -1,0 +1,38 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of /.well-known/ on kiwico.com and api.kiwico.com
+result: none
+note: >-
+  No /.well-known/ discovery documents are published on either host. KiwiCo is a
+  direct-to-consumer retailer with no developer program, so this is an expected
+  empty result rather than a gap. Recorded as negative evidence; no WellKnown or
+  SecurityTxt pointer is wired into apis.yml because no document was found.
+hosts:
+- host: https://kiwico.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://api.kiwico.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
