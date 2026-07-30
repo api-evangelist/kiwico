@@ -1,8 +1,29 @@
 aid: kiwico
 name: KiwiCo
-description: KiwiCo is a company surfaced as a portfolio company of 500-global, felicis, forerunner-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  KiwiCo, Inc. is a direct-to-consumer education company headquartered in Mountain View,
+  California, founded in 2011 by Sandra Oh Lin. KiwiCo designs and ships hands-on STEAM
+  (science, technology, engineering, art and math) project kits — branded as crates — on a
+  monthly subscription, with distinct lines aimed at every age from infants through teens
+  and adults, alongside single-purchase kits sold through its online store. A KiwiCo
+  Education division supplies the same project kits and NGSS-aligned lesson guides to
+  schools, homeschools, after-school programs and camps. KiwiCo operates as a consumer
+  e-commerce and subscription business and publishes no public developer program: there is
+  no developer portal, API documentation, OpenAPI definition, SDK, CLI or webhook surface,
+  and no /.well-known/ discovery documents on any of its hosts. This profile therefore
+  captures verified company identity and public web properties only.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://icdn.kiwico.com/fb_logo/Facebook-Image.jpg
 url: https://raw.githubusercontent.com/api-evangelist/kiwico/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,19 @@ x-backed-by:
 - felicis
 - forerunner-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Education
+- STEAM
+- Subscription Boxes
+- E-Commerce
+- Consumer
+- Toys
+- Childrens Education
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +54,24 @@ maintainers:
 common:
 - type: Website
   url: https://kiwico.com
+- type: Blog
+  url: https://www.kiwico.com/blog
+- type: Support
+  url: https://support.kiwico.com/
+- type: Pricing
+  url: https://www.kiwico.com/us/store/cp/all
+- type: SignUp
+  url: https://www.kiwico.com/login
+- type: TermsOfService
+  url: https://www.kiwico.com/terms
+- type: PrivacyPolicy
+  url: https://www.kiwico.com/privacy
+- type: DomainSecurity
+  url: security/kiwico-domain-security.yml
+- type: LLMsTxt
+  url: llms/kiwico-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
